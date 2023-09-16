@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;;
+}
+.navheader{
+    height: 49px;
+    border-bottom: 2px solid #cac2c275;
+    padding: 20px;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 70px;
+    align-items: center;
+}
+.nav-center{
+    border: 1px solid lightgray;
+    display: flex;
+    height: 30px;
+    padding: 10px 16px;
+    gap: 8px;
+    border-radius: 50px;
+    align-items: center;
+    box-shadow: 0px 0px 15px 0.5px lightgray;
+    margin-left: 10%;
+}
+.line{
+    height: 24px;
+    width: 1px;
+    background-color: gray;
+}
+.nav-search{
+    height: 30px;
+    width: 30px;
+    padding: 9px;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+}
+.nav-span{
+    font-weight: 600;
+    font-size: 14px;
+}
+.nav-guest{
+    color: lightgray;
+}
+.nav-end{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-inner-end{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    padding: 3px 6px;
+    border-radius: 25px;
+    gap: 9px;
+}
+.scrollnav{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px; */
+    margin: 20px 70px;
+    gap: 30px;
+}
+.icon-card{
+    display: grid;
+    justify-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    white-space: nowrap;
+    position: relative;
+}
+.hor-line{
+    width: 40px;
+    background-color: black;
+    height: 3px;
+}
+.navfilter{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    gap: 5px;
+    padding: 16px;
+    margin-left: 50px;
+}
+.arrow-nav{
+    border: 1px solid lightgray;
+    height: 25px;
+    width: 25px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 50%;
+    position: absolute;
+}
+.total-center{
+    border: 1px solid lightgray;
+    display: flex;
+    height: 30px;
+    padding: 20px 15px;
+    gap: 15px;
+    border-radius: 12px;
+    align-items: center;
+    margin: 0% 25%;
+    width: 50%;
+}
+.line-1{
+    height: 18px;
+    width: 1px;
+    background-color: gray;
+}
+.nav-search-outer{
+    /* width: 100%; */
+    margin-left: 21rem;
+}
+.nav-circle-outer{
+     /* padding: 9px;  */
+     background-color: rgba(128, 128, 128, 0.856); 
+     border: none;
+     height: 25px;
+    width: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.nav-circle-inner{
+    height: 20px;
+    width: 20px;
+    margin:0px 0px 1px 4px;
+    border-radius: 50%;
+    background-color:whitesmoke;
+    border: none;
+}
+/* stay container */
+.stay-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Card design */
+
+.card {
+    width: 306px;
+    border-radius: 12px;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    margin: 20px 91px;
+    display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.image-place {
+    width: 315px;
+    height: 319px;
+    border-radius: 12px;
+}
+
+.heart-svg {
+    position: absolute;
+    height: 30px;
+    top: 10px;
+    margin-left: 17.5rem;
+}
+
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.dist {
+    color: grey;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.available-dates {
+    margin: 0px;
+    padding: 2px 0px;
+    color: grey;
+    font-size: 16px;
+}
+
+.rate {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 5px 0px;
+}
+
